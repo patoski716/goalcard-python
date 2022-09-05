@@ -29,7 +29,7 @@ DEBUG = True
 
 
 
-ALLOWED_HOSTS = ['patoski716.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
