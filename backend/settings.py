@@ -98,23 +98,23 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-#Production DB settings
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'username$dbname',
-        'USER': 'username',
-        'PASSWORD': 'dbpassword',
-        'HOST': 'username.mysql.pythonanywhere-services.com',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# #Production DB settings
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'username$dbname',
+#         'USER': 'username',
+#         'PASSWORD': 'dbpassword',
+#         'HOST': 'username.mysql.pythonanywhere-services.com',
+#     }
+# }
 
 
 
